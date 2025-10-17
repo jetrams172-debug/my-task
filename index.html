@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organify | Fresh Organic Produce</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome & Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!--  Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVdbeikQS-bPLYNWSHx4wV2FkZn1UfYTBRTg&s" alt="Organify Logo" class="logo-img">
+    </div>
+
+    <button class="menu-toggle" id="menuToggle">
+      <i class="bi bi-list"></i>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-extra">
+      <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button class="search-btn"><i class="bi bi-search"></i></button>
+      </div>
+      <a href="#" class="icon-link"><img src="https://st2.depositphotos.com/1041273/5753/v/950/depositphotos_57530297-stock-illustration-shopping-cart-icon.jpg" alt="Cart" class="icon-img"></a>
+    </div>
+  </nav>
+
+  <!--  Hero / Banner Section -->
+  <section class="banner" id="home">
+    <div class="left">
+      <div class="para">Fresh & Organic for  your health</div>
+      <h1 class="head">Welcome to Organify Super Foods</h1>
+      <p>Discover nature’s finest fruits, vegetables, and more. Delivered fresh from the farm to your doorstep.</p>
+      <button class="button">Shop Now</button>
+    </div>
+    <div class="right">
+      <img src="https://i.pinimg.com/736x/d0/98/54/d09854c439fb0e3a49899149f6a9da74.jpg" alt="Fresh Vegetables" style="width:100%; height:auto; border-radius:10px;">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="mid-section" id="services">
+    <h1 class="mid-h1">Why Choose <span class="color">Organify?</span></h1>
+    <div class="cards">
+      <div class="box1">
+        <i class="bi bi-truck fs-1"></i>
+        <p class="box-p">Fast and Reliable Delivery</p>
+      </div>
+      <div class="box2">
+        <i class="bi bi-basket3 fs-1"></i>
+        <p class="box-p">Fresh Organic Products</p>
+      </div>
+      <div class="box3">
+        <i class="bi bi-shield-check fs-1"></i>
+        <p class="box-p">100% Quality Guaranteed</p>
+      </div>
+      <div class="box4">
+        <i class="bi bi-leaf fs-1"></i>
+        <p class="box-p">Eco-Friendly Packaging</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section class="product-section" id="products">
+    <h2 class="animated-heading">Our Fresh Picks</h2>
+    <div class="product-container">
+      <div class="product-card">
+        <img src="https://plus.unsplash.com/premium_photo-1661322640130-f6a1e2c36653?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlc2glMjBhcHBsZXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000" alt="Apple" class="product-image">
+        <h3>Fresh Apples</h3>
+        <p>Rich in vitamins & fiber.</p>
+        <strong>₹120/kg</strong>
+        <p class="discount">10% Off</p>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.istockphoto.com/id/1159189277/photo/fresh-tomatoes-isolated-on-wooden-background-harvesting-tomatoes-tomato-with-droplets-of-water.jpg?s=612x612&w=0&k=20&c=aSMuh8GwY_7cr9FFdCis5nw4lgOM8QPzmCmHEw6fAL0=" alt="Tomato" class="product-image">
+        <h3>Organic Tomatoes</h3>
+        <p>Farm-fresh and juicy.</p>
+        <strong>₹80/kg</strong>
+        <p class="discount">5% Off</p>
+      </div>
+
+      <div class="product-card">
+        <img src="https://media.istockphoto.com/id/1494763483/photo/banana-concept.jpg?s=612x612&w=0&k=20&c=ZeVP-L6ClmyT-i0N-QAbDK7q37uHhrzg7KOzMkaOtg4=" alt="Bananas" class="product-image">
+        <h3>Natural Bananas</h3>
+        <p>Sweet & energy-packed.</p>
+        <strong>₹60/dozen</strong>
+        <p class="discount">15% Off</p>
+      </div>
+
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqAEprHBPrgPkseLGwVsQtHBn10sr_MbDX3g&s" alt="Carrots" class="product-image">
+        <h3>Fresh Carrots</h3>
+        <p>Boosts eyesight & health.</p>
+        <strong>₹90/kg</strong>
+        <p class="discount">10% Off</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="product-section" id="products">
+    <h2 class="animated-heading">Our Fresh Picks</h2>
+    <div class="product-container">
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSAIthAlPLMPi96fC1gBwvPnnwntsfm9NJnw&s" alt="Apple" class="product-image">
+        <h3>Olive oil </h3>
+        <p>Rich in vitamins & fiber.</p>
+        <strong>₹120/kg</strong>
+        <p class="discount">10% Off</p>
+      </div>
+
+      <div class="product-card">
+        <img src="https://www.kirtigold.com/images/productBanner/sunflowerBanner.jpg" alt="Tomato" class="product-image">
+        <h3>Fresh Sun-Flower Oil</h3>
+        <p>Farm-fresh and juicy.</p>
+        <strong>₹80/kg</strong>
+        <p class="discount">5% Off</p>
+      </div>
+
+      <div class="product-card">
+        <img src="https://5.imimg.com/data5/WM/UP/AD/SELLER-30759087/nutella-ferroro-500x500.jpeg" alt="Bananas" class="product-image">
+        <h3>Butter</h3>
+        <p>Sweet & energy-packed.</p>
+        <strong>₹60/dozen</strong>
+        <p class="discount">15% Off</p>
+      </div>
+
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHVCEU-x_YMghseR8_rWAWg7PyjTGZn1n6w&s" alt="Carrots" class="product-image">
+        <h3>Sweet Snacks</h3>
+        <p>Boosts eyesight & health.</p>
+        <strong>₹90/kg</strong>
+        <p class="discount">10% Off</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Blog Section -->
+  <section class="last-section" id="blog">
+    <h2 class="fade-in-heading">Healthy Living Tips</h2>
+    <div class="section2">
+      <p>Read our latest articles on organic lifestyle, nutrition, and eco-sustainability.</p>
+      <div class="d-buttons">
+        <button class="button" <a href="#blog">View Blog</button></a>
+        <button class="button">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--blog images and container-->
+
+  
+<section class="blog-session" aria-label="Blog: Organic fruits and groceries" id="blog">
+  <div class="blog-inner">
+    <header class="blog-header">
+      <h2>Fresh & Organic — From Farm to Table</h2>
+      <p class="subhead">Seasonal fruits, vibrant vegetables and simple grocery picks — all chosen with health and sustainability in mind.</p>
+    </header>
+
+    <!-- Image gallery -->
+    <div class="gallery" role="list">
+      <figure class="card" role="listitem">
+        <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=900&q=80&auto=format&fit=crop" alt="Red apples in a basket" loading="lazy">
+        <figcaption>Red apples — juicy & crisp</figcaption>
+      </figure>
+
+      <figure class="card" role="listitem">
+        <img src="https://thumbs.dreamstime.com/b/fresh-organic-vegetables-harvesting-farmers-picking-tomatoes-cucumbers-broccoli-carefully-harvest-ripe-red-green-vibrant-376567552.jpg" alt="Variety of fresh vegetables" loading="lazy">
+        <figcaption>Seasonal vegetables — colorful and nutrient-rich</figcaption>
+      </figure>
+
+      <figure class="card" role="listitem">
+        <img src="https://austorganic.com/wp-content/uploads/2023/05/stall-4.webp" alt="Organic bananas" loading="lazy">
+        <figcaption>Organic bananas — sweet energy</figcaption>
+      </figure>
+
+      <figure class="card" role="listitem">
+        <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?w=900&q=80&auto=format&fit=crop" alt="Loose grains and grocery items" loading="lazy">
+        <figcaption>Pantry picks — whole grains & staples</figcaption>
+      </figure>
+
+      <figure class="card" role="listitem">
+        <img src="https://thumbs.dreamstime.com/b/basket-ripe-strawberries-background-aged-farmer-close-up-wicker-full-fresh-blur-senior-gardener-uniform-outdoor-222558064.jpg" alt="Cluster of fresh berries" loading="lazy">
+        <figcaption>Fresh berries — antioxidants in every bite</figcaption>
+      </figure>
+
+      <figure class="card" role="listitem">
+        <img src="https://media.istockphoto.com/id/521813425/photo/man-carrying-full-shopping-basket-in-grocery-store.jpg?s=612x612&w=0&k=20&c=s5NcDxMGEG2u0EXamoF8P7fJCVS773WqTrU2IMvkVJA=" alt="Assorted grocery jars and bottles" loading="lazy">
+        <figcaption>Small-batch and bulk grocery options</figcaption>
+      </figure>
+    </div>
+
+    <!-- Blog text -->
+    <article class="blog-text" id="about">
+      <h3>Why choose organic fruits?</h3>
+      <p>
+        Organic fruits are grown without synthetic pesticides, herbicides, or genetically modified organisms. That usually means fewer chemical residues on the skin and a stronger focus on soil health, biodiversity and sustainable farming practices.
+        Choosing organic can help reduce your exposure to certain chemicals, support small and responsible farms, and often deliver fruit with fuller flavour — because many organic practices prioritize quality over scale.
+      </p>
+
+      <p>
+        Practical tip: wash all produce before eating, store fruits at the right temperature, and buy seasonally — seasonal, local organic fruit often tastes best and has the lowest environmental footprint.
+      </p>
+
+      <div class="cta-row">
+        <button class="cta">Explore seasonal picks</button>
+        <a class="learn-more" href="#more">Read more about organic farming</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+  <!-- Footer Section -->
+  <footer class="main-footer" id="contact">
+    <div class="footer-section">
+      <h3>About Organify</h3>
+      <p>Your trusted source for organic fruits and vegetables delivered fresh daily.</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <div class="subscription">
+        <input type="email" placeholder="Your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Organify | All Rights Reserved
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--  JS -->
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
